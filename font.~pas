@@ -1,0 +1,13 @@
+//这是字库类，表示字轮字库的40个字及每个字的压力对应值
+unit font;
+interface
+type
+  TFont: array[0..1] of Integer;
+
+var
+  Fonts: array of TFont;
+
+implementation
+
+end.
+ 

@@ -1,0 +1,36 @@
+unit dict;
+
+interface
+uses Windows, Classes, SysUtils, StrUtils;
+
+type
+  TDictionary=class
+  private
+    procedure SetValures(str: string);
+
+    m_strs: string;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+
+    property values: string write SetValues;
+end;
+
+implementation
+
+constructor TDictionary.Create;
+begin
+
+end;
+destructor TDictionary.Destroy; override;
+begin
+
+end;
+procedure TDictionary.SetValures(str: string);
+begin
+
+end;
+
+end.
+ 
